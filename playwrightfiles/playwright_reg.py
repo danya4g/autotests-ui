@@ -43,6 +43,7 @@ with sync_playwright() as playwright:
     result_block = page.get_by_test_id("courses-list-empty-view-title-text")
     expect(result_block).to_be_visible()
     expect(result_block).to_have_text("There is no results")
+    expect
 
     pipeline_result = page.get_by_test_id("courses-list-empty-view-description-text")
     expect(pipeline_result).to_be_visible()
