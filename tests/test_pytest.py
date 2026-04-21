@@ -13,3 +13,7 @@ class TestUserLogin:
 
     def test_assert_positive(self):
         assert (5 - 2) == 3
+
+    def test_example(self):
+        x = 5
+        assert x == 6
