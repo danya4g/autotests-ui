@@ -26,3 +26,15 @@ class TestUserAuthentification:
 
     def test_logout(self):
         ...
+
+    @pytest.mark.start
+    def test_heavy_calculation():
+        pass
+
+    @pytest.mark.step
+    def test_integration_with_external_api():
+        pass
+
+    @pytest.mark.flip
+    def test_quick_check():
+        pass
